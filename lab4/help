@@ -1,0 +1,5 @@
+make
+make test
+make clean
+
+./censor file
