@@ -1,0 +1,17 @@
+curl -X POST -d 'api_dev_key=fG2Ysh3Xk73DXjnVth0xqPNE_HK2k42Z' -d 'api_user_key=b4aa57f6ea225beeacb694426eb9212d' -d 'api_paste_code=test_with_api_user_key' -d 'api_option=paste' "https://pastebin.com/api/api_post.php"
+
+
+// generate api_user
+curl -X POST -d 'api_dev_key=fG2Ysh3Xk73DXjnVth0xqPNE_HK2k42Z' -d 'api_user_name=matvey-makaro' -d 'api_user_password=ma1ka2ro3ma1ka2ro3' "https://pastebin.com/api/api_login.php"
+
+
+
+curl -X POST -d 'api_dev_key=fG2Ysh3Xk73DXjnVth0xqPNE_HK2k42Z' -d 'api_user_key=b4aa57f6ea225beeacb694426eb9212d' -d 'api_option=show_paste' -d 'api_paste_key=rY0kt9uX' "https://pastebin.com/api/api_post.php"
+
+
+./pastebin.sh - создание записи из stdin
+./pastebin.sh -t type - создание записи с типои type, если этого нет, то определять по расширению файла
+./pastebin.sh -f filename - создание записи на основе файла
+./pastebin.sh -i id - вывод на консоль данные записи с id
+./pastebin.sh -i id -f filenam - вывод в файл данных записи с id
+
