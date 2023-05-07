@@ -1,0 +1,6 @@
+
+echo "User name: `whoami`"
+echo "Date: `date`"
+echo "Current working directory: `pwd`"
+echo "Number of processes in the system: `ps aux | wc -l`"
+echo "Session time: `uptime -p`"
