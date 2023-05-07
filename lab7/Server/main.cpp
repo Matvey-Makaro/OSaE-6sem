@@ -16,6 +16,5 @@ int main(int argc, char* argv[])
         cerr << ex.what() << endl;
     }
 
-    system("pause");
     return 0;
 }

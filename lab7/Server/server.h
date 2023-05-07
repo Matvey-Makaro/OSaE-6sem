@@ -9,7 +9,6 @@
 #include <unordered_map>
 #include <string>
 #include <vector>
-#include <pthread.h>
 #include <thread>
 #include <mutex>
 #include <sys/socket.h>
