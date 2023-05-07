@@ -1,0 +1,1 @@
+awk -f import.awk data.csv

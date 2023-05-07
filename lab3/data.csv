@@ -1,0 +1,10 @@
+TABLE,STUDENT
+COLUMNS,name,group,average
+Sasha,050504,8.1
+Maxim,053502,9.2
+Liza,010101,8.7
+Polina,015234,7.2
+TABLE,BOOKS
+COLUMNS,name,author
+Современные операционные системы,Таненбаум
+Искусство программирования,Кнут
